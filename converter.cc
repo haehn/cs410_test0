@@ -51,6 +51,6 @@ int main()
 
   std::cout << "The average temperature is: " << averageTemp << "\n";
 
-  std::cout << "Converted to Celsius, this temperature is " << SingletonConverter::getInstance()->fromFtoC(averageTemp) << "!\n";
+  std::cout << "HELLO Converted to Celsius, this temperature is " << SingletonConverter::getInstance()->fromFtoC(averageTemp) << "!\n";
   
 }
